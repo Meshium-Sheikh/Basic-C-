@@ -1,3 +1,7 @@
-﻿## Note to self:
+﻿### Note to self:
  
-Never forget making a .gitignore for C++
+Always remember to  make a .gitignore for any C++ file.
+
+### Main learning resource:
+
+[learncpp.com](https://learncpp.com/)
