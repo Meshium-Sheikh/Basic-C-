@@ -1,0 +1,6 @@
+# .gitignore for C++
+*.exe
+*.o
+*.obh
+*.out
+.vscode/
