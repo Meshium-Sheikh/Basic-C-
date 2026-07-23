@@ -10,3 +10,23 @@ int main() {
     std::cout <<"Ending main()\n";
     return 0;
 }
+\*
+This code doesn't work.
+Reason : variable input gets initialised so the answer returned will always be 0.
+*/
+# include <iostream>
+
+void getValueFromUser()
+{
+    std::cout <<"Enter an integer\n";
+    int input{};
+    std::cin >> input;
+}
+
+int main()
+{
+    getValueFromUser();
+    int input{};
+    std::cout <<"Double that number is " << input*2 ;
+    return 0;
+}
