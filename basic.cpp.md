@@ -1,3 +1,4 @@
+``` C++
 #include <iostream>
 // most efficient
 int main()
@@ -14,6 +15,7 @@ int main()
     
     return 0;
 }
+
 
 
 // function with 3 alternative options
@@ -50,6 +52,7 @@ int main1()
     /*
     Best way to double the number
     */
+```
    std:: cout<<"Double that num is" << num*2 <<'\n';
 
     // answer will be 32 because we are using the same variable
