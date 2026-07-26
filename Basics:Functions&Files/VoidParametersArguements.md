@@ -1,7 +1,12 @@
-Void Function means : non-value returning function
-Does not need a return statement because already returns a value (will be redundant otherwise)
-Find Errors in these code below:
-1.
+# Learncpp.com chapter 2
+
+## Void Function means : non-value returning function
+
+- Does not need a return statement because already returns a value (will be redundant otherwise)
+
+##  Find Errors in these code below:
+### 1.
+``` C++
 #include <iostream>
 
 void printA()
@@ -15,9 +20,12 @@ int main()
 
     return 0;
 }
-Error in line 18.
-Since Void function doesn't return a value there'd be a compliling error
-2.
+```
+- Error in line 18.
+- Since Void function doesn't return a value there'd be a compliling error
+
+### 2.
+``` C++
 #include <iostream>
 
 int getDouble()
@@ -33,4 +41,6 @@ int main()
     std::cout << "Doublle is: " << value*2 ;
     return 0;
 }
-Function Parameters & Arguements
+```
+
+## Function Parameters & Arguements
