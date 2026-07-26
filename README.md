@@ -1,7 +1,7 @@
-﻿### Note to self:
- 
-Always remember to  make a .gitignore for any C++ file.
-
-### Main learning resource:
+﻿### Main learning resource:
 
 [learncpp.com](https://learncpp.com/)
+
+## Chapter 1 : Basics
+
+## Chapter 2: Basics Functions & Files
