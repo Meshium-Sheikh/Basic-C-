@@ -58,3 +58,47 @@ int main()
     return 0;
 }
 ```
+```
+Exercise 3: Pass by Reference
+```
+```C++
+#include <iostream>
+
+void swap_reference(int &a, int&b)
+
+// &a and &b act as aliases; values of x and y also change
+
+{   
+
+    int temp = a;
+    a = b;
+    b = temp;
+    std::cout << "Inside swap_reference function: a = " << a << " b = " << b << "\n";
+}
+
+int main()  
+{
+    int x = 10;
+    int y = 20;
+    std::cout<<"Before call: x = " << x << " y = " << y << "\n";
+    swap_reference(x,y);
+    std::cout << "After call: x = " << x << ", y = " << y << "\n";
+    
+    return 0;
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
