@@ -26,3 +26,35 @@ int main()
     return 0;
 }
 ```
+```
+2. Swapping number by value only
+```
+```C++
+# include <iostream>
+
+void swap_value(int a, int b)
+
+// void because the swap should not affect the orignal variables in main
+{
+    int temp = a;
+    a = b;
+    b = temp;
+    
+    std:: cout << "Inside swap_value function: a = " << a << " b = " << b << "\n";
+}
+
+int main()
+{   
+    int x = 10;
+    int y = 20;
+    
+    std::cout << "Before call: x = " << x << "," << " y = " << y <<"\n";
+    
+    swap_value(x,y);
+    
+
+    std::cout << "After call: x = "<< y << ", b = " << x << "\n";
+   
+    return 0;
+}
+```
